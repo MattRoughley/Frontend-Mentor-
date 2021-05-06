@@ -1,0 +1,78 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+    html, *, *::before, *::after{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+    :root{
+
+        /*
+        ===========
+           colors
+        ===========
+        */
+        --main-bg: hsl(233, 47%, 7%);
+        --card-bg: hsl(244, 38%, 16%);
+        --accent: hsl(277, 64%, 61%);
+
+        /*
+        ==========
+        Typography 
+        ==========
+        */
+
+        --heading: hsl(0, 0%, 100%);
+        --para: hsla(0, 0%, 100%, 0.75);
+        --stats: hsla(0, 0%, 100%, 0.6);
+
+    }
+
+    body{
+        width: 375px;
+        height: auto;
+        background: var(--main-bg);
+        text-align: center;
+        margin-left: 2em;
+
+    }
+
+    .container{
+        text-align: center;
+        width: 352px;
+        height: 90vh;
+        background: var(--card-bg);
+        border-radius: 1em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .banner{
+        width: 350px;
+        height: 35%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .title{
+        font-family: 'Inter', sans-serif; 
+        color:var(--heading);
+    }
+
+    .bold{
+        color: var(--accent);
+    }
+
+    .body-text{
+        font-family: 'Lexend Deca', sans-serif;
+        color: var(--para);
+    }
+
+    .stats{
+        color: var(--stats);
+    }
