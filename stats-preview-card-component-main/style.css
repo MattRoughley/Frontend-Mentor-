@@ -39,12 +39,15 @@
         background: var(--main-bg);
         text-align: center;
         margin-left: 2em;
+        font-family: 'Inter', sans-serif; 
+        color: var(--stats);
+        
 
     }
 
     .container{
         text-align: center;
-        width: 352px;
+        width: 330px;
         height: 90vh;
         background: var(--card-bg);
         border-radius: 1em;
@@ -53,14 +56,20 @@
     }
 
     .banner{
-        width: 350px;
-        height: 35%;
+        width: 330px;
+        height: 30%;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
 
+    .img-bg{
+        color:var(--accent)
+    }
+
     .title{
-        font-family: 'Inter', sans-serif; 
+        font-size: 1.8em;
+        padding: 1em 1em 0em 1em;
+        font-family: 'Lexend Deca', sans-serif;
         color:var(--heading);
     }
 
@@ -69,10 +78,13 @@
     }
 
     .body-text{
-        font-family: 'Lexend Deca', sans-serif;
-        color: var(--para);
+        padding: 1.5em;
+        line-height: 1.1em;
+        color: var(--stats)
+        font-family: 'Inter', sans-serif;
     }
 
     .stats{
-        color: var(--stats);
+        padding: 0.5em;
+        color:var(--heading);
     }
