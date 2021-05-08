@@ -87,8 +87,8 @@ html, *, *::before, *::after{
 
     .title{
         font-size: 1.4em;
-        margin-left: 35px;
-        padding: 1em 2.1em 0em 2.3em;
+        margin-left: 2px;
+        padding: 1.1em 2.1em 0em 2.3em;
         color:var(--heading);
         font-family: 'Lexend Deca', sans-serif;
         font-weight:700;
@@ -152,7 +152,7 @@ html, *, *::before, *::after{
         height: 100%;
         border-top-left-radius: 0em;
         border-bottom-right-radius: 1em;
-        opacity:0.8;
+        opacity:0.7;
 
     }
 
@@ -181,16 +181,17 @@ html, *, *::before, *::after{
 
         .text-div{
             padding-left: 25px;
-            padding: 2em;
+            padding: 0.5em 2em 2em 2em ;
             text-align: left;
             display: flex;
             flex-wrap: wrap;
         }
 
         .title{
-        font-size: 1.5em;
+        font-size: 1.8em;
         color:var(--heading);
         font-family: 'Lexend Deca', sans-serif;
         font-weight:700;
+        margin-left: -1em;
         }
 }
